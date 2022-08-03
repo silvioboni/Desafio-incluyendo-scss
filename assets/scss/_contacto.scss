@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+
+
+ }
+
+ input:focus{
+    border: solid rgb(214, 121, 15);
+    
+ }
+
+ form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: beige;
+      input{color: black;
+               }  
+               &:focus{
+                  border: solid rgb(214, 121, 15);
+               }
+ }
